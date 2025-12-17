@@ -1,0 +1,17 @@
+
+# robots.txt for Prompt Builder
+
+User-agent: *
+Allow: /
+Allow: /explore
+Allow: /gallery
+Allow: /share-prompt
+Allow: /shared
+
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /admin/manage-prompts
+
+Sitemap: /sitemap.xml
+# If your NEXT_PUBLIC_BASE_URL is set, you can use an absolute URL:
+# Sitemap: https://yourdomain.com/sitemap.xml
